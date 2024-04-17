@@ -11,7 +11,11 @@
   "author": "Minji Jung",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/preset-env": "^7.24.4",
     "@types/jest": "^29.5.12",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^18.0.0",
@@ -21,7 +25,6 @@
     "husky": "^8.0.0",
     "jest": "^29.7.0",
     "lint-staged": "^15.2.2",
-    "test-jest": "^1.0.1",
     "ts-jest": "^29.1.2",
     "typescript": "^5.4.5"
   },
