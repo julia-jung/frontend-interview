@@ -164,3 +164,9 @@ The JavaScript built-in Number object provides a representation of infinity, wit
 const positiveInf = Number.POSITIVE_INFINITY;
 const negativeInf = Number.NEGATIVE_INFINITY;
 ```
+
+<br />
+
+## Recourses
+
+[AlgoMonster - JS data structures](https://algo.monster/problems/javascript_overview)
