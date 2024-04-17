@@ -22,6 +22,7 @@ module.exports = {
     'arrow-body-style': 'off',
     'no-loop-func': 'off',
     'no-plusplus': 'off',
+    'no-restricted-syntax': ['off', 'ForOfStatement'],
   },
   settings: {
     react: {
