@@ -11,3 +11,141 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* contact form */
+.contact-form {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.contact-form__item {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+.contact-form__item--lg {
+  width: 150px;
+}
+
+/* holy grail */
+.holy-grail {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.holy-grail header,
+nav,
+main,
+aside,
+footer {
+  padding: 12px;
+  text-align: center;
+}
+
+.holy-grail header {
+  background-color: tomato;
+  height: 60px;
+}
+.holy-grail footer {
+  background-color: slategray;
+  height: 100px;
+}
+
+.holy-grail .columns {
+  display: flex;
+  /* min-height: calc(100vh - 160px); */
+  flex-grow: 1;
+}
+
+.holy-grail nav {
+  background-color: coral;
+  width: 100px;
+  flex-shrink: 0;
+}
+.holy-grail aside {
+  background-color: sandybrown;
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.holy-grail main {
+  background-color: moccasin;
+  /* width: åcalc(100vw - 200px); */
+  flex-grow: 1;
+}
+
+/* tabs */
+.tabs {
+  padding: 12px;
+  display: flex;
+  gap: 8px;
+}
+.tabs__item {
+  --active-color: blueviolet;
+
+  padding: 6px 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: none;
+}
+.tabs__item:hover {
+  border-color: var(--active-color);
+  color: var(--active-color);
+  cursor: pointer;
+}
+.tabs__item--active,
+.tabs__item--active:hover {
+  background-color: var(--active-color);
+  border-color: var(--active-color);
+  color: white;
+}
+.tabs-content {
+  padding: 12px;
+}
+
+/* job board */
+.job-board {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: ivory;
+}
+.job-board__text {
+  color: orangered;
+}
+
+.job-board__button {
+  padding: 8px 10px;
+  background-color: orangered;
+  opacity: 0.8;
+  color: white;
+  border: 1px solid orangered;
+  border-radius: 4px;
+}
+
+.job-board__button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.jobs-item {
+  padding: 8px 12px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: white;
+}
+.jobs-item__title a {
+  color: black;
+  text-decoration: none;
+}
+.jobs-item__title a:hover {
+  text-decoration: underline;
+}

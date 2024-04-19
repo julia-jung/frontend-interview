@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from '@testing-library/react';
 import user from '@testing-library/user-event';
-import Counter from './Counter';
+import Counter from '../Counter';
 
 test('render a button and increment count', async () => {
   render(<Counter />);

@@ -1,9 +1,9 @@
-import Counter from './components/Counter';
+import JobBoard from './components/JobBoard';
 
 function App() {
   return (
     <div className='App'>
-      <Counter />
+      <JobBoard />
     </div>
   );
 }

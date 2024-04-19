@@ -4,7 +4,7 @@
   "description": "Frontend Interview Practice",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./javascript",
+    "test": "jest ./javascript --watchAll --coverage",
     "lint": "eslint --fix .",
     "prepare": "husky install"
   },
